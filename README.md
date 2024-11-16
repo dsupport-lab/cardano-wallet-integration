@@ -12,6 +12,17 @@ This repository provides a simple implementation of **Vespr Wallet** and **Yoroi
 
 ---
 
+### ⚠️ Important Warning ⚠️
+
+If you do not configure the correct network in your wallet for testing, the DApp will attempt to connect to the network currently set in your wallet, regardless of being in a development environment. 
+
+- **Vespr Wallet** supports the following networks: `mainnet`, `preprod`, and `preview`. We recommend using the **preview** network for testing purposes.
+- **Yoroi Wallet** supports only `mainnet` and `preprod`. 
+
+It is strongly advised to use a dedicated wallet for testing to avoid unintended consequences with your primary wallet. This repository is designed for development environments; please ensure your security and always double-check the network configuration.
+
+---
+
 ### How to Set Up
 
 1. Clone the Repository:
