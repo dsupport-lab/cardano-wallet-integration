@@ -1,7 +1,3 @@
-Aquí está la descripción actualizada con la ruta de tu repositorio de GitHub:
-
----
-
 ### Cardano Wallet Integration with React and Next.js
 
 This repository provides a comprehensive guide for integrating **Vespr Wallet** and **Yoroi Wallet** into your **Cardano-powered applications** using **React** and **Next.js**. All wallet connection and transaction logic strictly adheres to the **CIP-30** standard, ensuring seamless compatibility and reliability for Cardano wallet integrations.
@@ -97,7 +93,3 @@ This project strictly adheres to the **CIP-30** specification, which defines the
 ### Contributions
 
 Feel free to open issues or submit pull requests to enhance this repository. Together, we can empower the Cardano ecosystem and build better DApps! 🚀
-
----
-
-This description now includes the correct repository URL and remains focused on helping developers set up and use the project efficiently. Let me know if you'd like any further tweaks!
