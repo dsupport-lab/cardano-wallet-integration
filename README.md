@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Aquí está la descripción actualizada con la ruta de tu repositorio de GitHub:
 
-## Getting Started
+---
 
-First, run the development server:
+### Cardano Wallet Integration with React and Next.js
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This repository provides a comprehensive guide for integrating **Vespr Wallet** and **Yoroi Wallet** into your **Cardano-powered applications** using **React** and **Next.js**. All wallet connection and transaction logic strictly adheres to the **CIP-30** standard, ensuring seamless compatibility and reliability for Cardano wallet integrations.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **React and Next.js Setup:** A fully functional implementation of Vespr Wallet and Yoroi Wallet integrations.
+- **CIP-30 Standards:** The wallet connection logic strictly follows the Cardano wallet interoperability specification.
+- **Transaction Handling:** Example code to construct and sign messages or transactions using Cardano wallets.
+- **Reusable Components:** Ready-to-use React components for wallet connection, address handling, and message signing.
+- **Language Support:** Multi-language functionality included to enhance global accessibility.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+### Use Cases
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Build modern **decentralized applications (DApps)** on Cardano with React and Next.js.
+- Enable wallet connections for users via **Vespr Wallet** and **Yoroi Wallet**.
+- Facilitate ADA transactions securely within your DApp.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+### Prerequisites
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Before starting, ensure you have the following resources and tools:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Node.js and npm/yarn:**
+   - Install the latest stable version of Node.js (v20.x recommended).
+   - Install a package manager like npm (default with Node.js) or yarn.
+
+2. **Cardano Serialization Library:**
+   - Ensure you have the `@emurgo/cardano-serialization-lib-browser` installed as a dependency. This library is critical for handling wallet interactions, such as converting and deserializing addresses.
+
+3. **Wallets:**
+   - Ensure **Vespr Wallet** or **Yoroi Wallet** is installed in your browser to test wallet connections.
+
+4. **Dependencies:**
+   - Run the following command to install all required packages:
+     ```bash
+     npm install
+     ```
+
+---
+
+### Getting Started
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/dsupport-lab/cardano-wallet-integration.git
+   cd cardano-wallet-integration
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the Development Server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Access the Application:**
+   Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
+
+5. **Testing Wallet Connections:**
+   - Click on the "Connect Wallet" button for **Vespr Wallet** or **Yoroi Wallet** and follow the prompts.
+   - Test signing a message or verifying the wallet's functionality through the provided UI.
+
+---
+
+### Considerations
+
+1. **Cross-Origin Requests:**
+   - Ensure you configure CORS policies on any backend APIs interacting with Cardano transactions.
+   
+2. **Production Build:**
+   - Run `npm run build` to generate a production-ready build of your application.
+
+3. **Error Handling:**
+   - Comprehensive error messages are implemented in the components to guide users through connection issues or signing failures.
+
+---
+
+### References
+
+This project strictly adheres to the **CIP-30** specification, which defines the Cardano wallet API for DApps. Learn more about it [here](https://cips.cardano.org/cips/cip30/).
+
+---
+
+### Contributions
+
+Feel free to open issues or submit pull requests to enhance this repository. Together, we can empower the Cardano ecosystem and build better DApps! 🚀
+
+---
+
+This description now includes the correct repository URL and remains focused on helping developers set up and use the project efficiently. Let me know if you'd like any further tweaks!
